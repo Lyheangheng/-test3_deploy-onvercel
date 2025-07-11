@@ -8,3 +8,15 @@ def about(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def gallery(request):
+    return render(request, 'gallery.html')
+
+def gallery_single(request):
+    return render(request, 'gallery-single.html')
+
+def services(request):
+    return render(request, 'services.html')
+
+def starter_page(request):
+    return render(request, 'starter-page.html')
