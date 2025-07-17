@@ -29,6 +29,7 @@ urlpatterns = [
     path('gallery-single.html', views.gallery_single, name='gallery_single'),
     path('services.html', views.services, name='services'),
     path('starter-page.html', views.starter_page, name='starter_page'),
+    # path('INDEX1.html', views.INDEX1, name='INDEX1'),
 ]
 
 # Serve static files during development

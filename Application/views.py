@@ -20,3 +20,6 @@ def services(request):
 
 def starter_page(request):
     return render(request, 'starter-page.html')
+
+# def INDEX1(request):
+#     return render(request, 'INDEX1.html')

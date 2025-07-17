@@ -1,0 +1,1 @@
+web: gunicorn test3.wsgi:application --host 0.0.0.0 --port $PORT
